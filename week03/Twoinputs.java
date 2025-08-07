@@ -14,8 +14,7 @@ public class Twoinputs {
         System.out.println("Difference: " + (num1 - num2));
         System.out.println("Product: " + (num1 * num2));
         System.out.println("Quotient: " + (num1 / num2));
-
-        input.close();
+        
     }
         
 }
