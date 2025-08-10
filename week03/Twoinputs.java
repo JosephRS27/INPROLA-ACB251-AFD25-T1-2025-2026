@@ -1,19 +1,25 @@
-public class Twoinputs {
-    public static void main (Stings args[]);
-         Scanner input = new Scanner(System.in);
-         
-         // Asking for two integers inputs 
-        System.out.println("Enter the first integer: ");
-        int num1 = input.nextInt();
+import java.util.Scanner;
 
-        System.out.println("Enter the second integer: ");
-        int num2 = input.nextInt();
-        
-        // Perform and display operations
-        System.out.print("Sum: " + (num1 + num2));
-        System.out.print("Difference: " + (num1 - num2));
-        System.out.print("Product: " + (num1 * num2));
-        System.out.print("Quotient: " + (num1 / num2));
+class Main {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
 
-    }
-        
+    System.out.println("Enter two integers individually:");
+
+    // First input
+    int firstInteger  = input.nextInt();
+
+    // Second input
+    int secondInteger = input.nextInt();
+
+
+   
+
+    // Output input by user
+    System.out.println("Addition: " + (firstInteger + secondInteger)); 
+    System.out.println("Subtraction: " + (firstInteger - secondInteger));
+    System.out.println("Multiplication: " + (firstInteger * secondInteger));  
+    System.out.println("Division: " + (firstInteger / secondInteger)); 
+    
+  }
+}
