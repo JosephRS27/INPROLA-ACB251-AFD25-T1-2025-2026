@@ -3,15 +3,17 @@ public class forLoops {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Enter two integers individually:");
+    System.out.println("Enter starting number:");
+    System.out.println("Enter ending number:");
 
-    // First input
-    int firstInteger  = input.nextInt();
+    // First num
+    int start  = input.nextInt();
 
-    // Second input
-    int secondInteger = input.nextInt();
-    for (int i = start; i = end; i++){
-        if (i%2 == 0 ){
+    // Second num
+    int end = input.nextInt();
+
+    for (int i = start; i <= end; i++){
+        if (i % 2 == 0 ){
             System.out.println(i);
         }
     }
