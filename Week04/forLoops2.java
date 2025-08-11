@@ -12,7 +12,7 @@ public class forLoops2 {
     int end = input.nextInt();
 
     for (int i = start; i <= end; i++){
-        if (i % 1 == 0 ){
+        if (i % 2 != 0 ){
             System.out.println(i);
         }
     }
