@@ -10,7 +10,7 @@ public class forLoops2 {
     // Second num
     System.out.print("Enter ending number:");
     int end = input.nextInt();
-    }
+
     for (int i = start; i <= end; i++){
         if (i % 2 != 0 )
             System.out.println(i);
