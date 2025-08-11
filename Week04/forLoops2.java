@@ -11,6 +11,10 @@ public class forLoops2 {
     System.out.print("Enter ending number:");
     int end = input.nextInt();
 
+    int  i;
+    if(start%2==0){
+        start++;
+    }
     for (int i = start; i <= end; i++){
         if (i % 2 != 0 ){
             System.out.println(i);
