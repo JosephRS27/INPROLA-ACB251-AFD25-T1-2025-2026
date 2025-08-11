@@ -4,11 +4,11 @@ public class forLoops {
     Scanner input = new Scanner(System.in);
 
     // First num
-    System.out.println("Enter starting number:");
+    System.out.print("Enter starting number:");
     int start  = input.nextInt();
 
     // Second num
-    System.out.println("Enter ending number:");
+    System.out.print("Enter ending number:");
     int end = input.nextInt();
 
     for (int i = start; i <= end; i++){
