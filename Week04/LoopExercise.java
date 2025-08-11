@@ -9,6 +9,6 @@ public class LoopExercise {
     String userName  = input.nextLine();
 
     // Output input by user
-    System.out.println("Username is" + userName);
+    System.out.println("Username is " + userName);
     }
   }
