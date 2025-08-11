@@ -12,8 +12,8 @@ public class forLoops2 {
     int end = input.nextInt();
     }
     for (int i = start; i <= end; i++){
-        if (i % 2 != 1 );{
+        if (i % 2 != 1 )
             System.out.println(i);
         }
     }
-  }
+  
