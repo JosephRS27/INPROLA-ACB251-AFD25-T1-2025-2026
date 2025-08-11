@@ -8,3 +8,5 @@ public class forLoops {
 
     // Second input
     int secondInteger = input.nextInt();
+  }
+}
