@@ -1,10 +1,15 @@
-public class Loop1 {
+import java.util.Scanner;
+public class LoopExercise {
   public static void main(String[] args) {
+  Scanner userName = new Scanner(System.in);
 
-    int n = 5;
-    // for loop  
-    for (int i = 1; i <= n; ++i) {
-      System.out.println("Java is fun" + " from: " +i+ " to: "+n);
+    System.out.println("Enter Username: ");
+
+    // First input
+    String userName  = userName.nextLine();
+
+    // Output input by user
+    System.out.println("Username is" + userName);
     }
   }
 }
