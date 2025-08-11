@@ -12,4 +12,3 @@ public class LoopExercise {
     System.out.println("Username is" + userName);
     }
   }
-}
