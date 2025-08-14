@@ -64,9 +64,15 @@ public class OddNumberFinder {
        for (int i = start; i <= end; i++) {
             // Check if the current number (i) is prime.
             // 0 and 1 are not prime numbers
-            if (num == 0 || num == 1) {
+            if (i == 0 || i == 1) {
                  isPrime = true;
+            if (i <= 1) return false;
+                for (int i = 2; i <= Math.sqrt(i); i++) {
+            if (i % i == 0) return false;
+        }
+        return true;
+    }
+}   
             }
         }
-    }     
-}
+        finder.findAndDisplayPrimeNumbers(i);
