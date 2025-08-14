@@ -24,4 +24,17 @@ public class OddNumberFinder {
             }
         }
     }
-}
+      public void findAndDisplayOdds2(int start, int end) {
+        System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
+ 
+        // Use a for loop to iterate from the start point to the end point
+        while (int i = start; i <= end; i++) {
+            // Check if the current number (i) is even.
+            // A number is even if the remainder when divided by 2 is 0.
+            if (i % 2 != 0) {
+                // If the number is even, print it to the console
+                System.out.println(i);
+            }
+        }
+    }
+}     
