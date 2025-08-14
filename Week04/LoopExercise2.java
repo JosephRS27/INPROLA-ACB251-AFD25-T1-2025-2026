@@ -7,7 +7,7 @@ import java.util.Scanner;
 * This is the "caller" class. It handles the user interface, reads input,
 * and then calls the EvenNumberFinder class to perform the main task.
 */
-public class LoopExercise {
+public class LoopExercise2 {
  
     public static void main(String[] args) {
  
