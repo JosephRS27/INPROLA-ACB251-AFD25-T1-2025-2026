@@ -22,6 +22,7 @@ public class OddNumberFinder {
             if (i % 2 != 0) {
                 // If the number is even, print it to the console
                 System.out.println(i);
+                findAndDisplayPrimeNumbers(i);
             }
         }
     }
@@ -50,30 +51,26 @@ public class OddNumberFinder {
               if (i % 2 != 0) {
                 // If the number is even, print it to the console
                 System.out.println(i);
+           findAndDisplayPrimeNumbers(i);
             }
             i++;
-            } 
-        while (i <= end);
-        }
-
-        public void findAndDisplayPrimeNumber(int start, int end) {
-        System.out.println("\nPrime numbers in the range " + start + " to " + end + " are:");
-            boolean isPrime = false;
-
-              // 0 and 1 are not prime numbers
-             if (i == 0 || i == 1) {
-            isPrime = true;
-            }
-            for (int i = 2; i <= i / 2; ++i) {
-
-                // condition for nonprime number
-            if (i % i == 0) {
-            flag = true;
-         break;
-      }
+        } while (i <= end);
     }
-
-    if (!isPrime)
-      System.out.println(i);
+    private void findAndDisplayPrimeNumbers(int num) {
+        if (isPrime(num)) {
+            System.out.println(num);
         }
-  }
+    }
+ 
+    private boolean isPrime(int num) {
+        if (num <= 1) {
+            return false;
+        }
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
