@@ -26,7 +26,7 @@ public class LoopExercise2 {
         OddNumberFinder finder = new OddNumberFinder();
  
         // Call the method in the worker class to find and display the numbers
-        finder.findAndDisplayOdds(startPoint,endPoint);
+        finder.findAndDisplayOdds2(startPoint,endPoint);
         
         // It's good practice to close the scanner to prevent resource leaks
         inputScanner.close();
