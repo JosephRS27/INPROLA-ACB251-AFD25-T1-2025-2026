@@ -3,7 +3,7 @@ import java.util.Scanner;
 
  
 /**
-* LopExercise.java
+* LopExercise2.java
 * This is the "caller" class. It handles the user interface, reads input,
 * and then calls the OddNumberFinder class to perform the main task.
 */
