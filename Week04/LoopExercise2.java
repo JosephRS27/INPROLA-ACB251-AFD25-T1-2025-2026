@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
 * LopExercise.java
 * This is the "caller" class. It handles the user interface, reads input,
-* and then calls the EvenNumberFinder class to perform the main task.
+* and then calls the OddNumberFinder class to perform the main task.
 */
 public class LoopExercise2 {
  
