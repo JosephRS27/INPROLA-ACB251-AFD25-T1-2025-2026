@@ -58,6 +58,22 @@ public class OddNumberFinder {
 
         public void findAndDisplayPrimeNumber(int start, int end) {
         System.out.println("\nPrime numbers in the range " + start + " to " + end + " are:");
- 
+            boolean isPrime = false;
+
+              // 0 and 1 are not prime numbers
+             if (i == 0 || i == 1) {
+            isPrime = true;
+            }
+            for (int i = 2; i <= i / 2; ++i) {
+
+                // condition for nonprime number
+            if (i % i == 0) {
+            flag = true;
+         break;
+      }
+    }
+
+    if (!isPrime)
+      System.out.println(i);
         }
-}
+  }
