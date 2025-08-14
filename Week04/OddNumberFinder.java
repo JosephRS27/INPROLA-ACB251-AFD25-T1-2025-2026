@@ -28,6 +28,7 @@ public class OddNumberFinder {
         System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
  
         // Use a for loop to iterate from the start point to the end point
+         // while initialzation - condition - increement 
         int i = start;
         while (i <= end;) {
              
@@ -38,4 +39,18 @@ public class OddNumberFinder {
             i++;
         }
     }
+    public void findAndDisplayOdds3(int start, int end) {
+        System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
+ 
+        // Use a for loop to iterate from the start point to the end point
+        // do-while initialzation - if/statement/increement  - condition
+        int i = start;
+        do{
+              if (i % 2 != 0) {
+                // If the number is even, print it to the console
+                System.out.println(i);
+            }
+            i++;
+            }   while (i <= end;) 
+        }
 }     
