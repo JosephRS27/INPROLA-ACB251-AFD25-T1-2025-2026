@@ -55,4 +55,16 @@ public class OddNumberFinder {
             } 
         while (i <= end;) 
         }
+
+        public void findAndDisplayPrimeNumber(int start, int end) {
+        System.out.println("\nPrime numbers in the range " + start + " to " + end + " are:");
+ 
+        // Use a for loop to iterate from the start point to the end point
+       for (int i = 2; i <= end/2; i++) {
+            // Check if the current number (i) is prime.
+            if (i % start != 0) {
+                // If the number is prime, print it to the console
+                System.out.println(i);
+            }
+        }
 }     
