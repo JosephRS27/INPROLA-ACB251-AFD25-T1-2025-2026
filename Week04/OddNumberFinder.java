@@ -31,7 +31,7 @@ public class OddNumberFinder {
         // Use a for loop to iterate from the start point to the end point
          // while initialzation - condition - increement 
         int i = start;
-        while (i <= end;) {
+        while i <= end; {
              
             if (i % 2 != 0) {
                 // If the number is even, print it to the console
@@ -53,18 +53,21 @@ public class OddNumberFinder {
             }
             i++;
             } 
-        while (i <= end;) 
+        while i <= end;
         }
 
         public void findAndDisplayPrimeNumber(int start, int end) {
         System.out.println("\nPrime numbers in the range " + start + " to " + end + " are:");
+        boolean flag = false;
  
         // Use a for loop to iterate from the start point to the end point
-       for (int i = 2; i <= end/2; i++) {
+       for (int i = 2; i <= end/2; ++i) {
             // Check if the current number (i) is prime.
-            if (i % start != 0) {
+            if (i % end == 0) {
+                flag = true;
                 // If the number is prime, print it to the console
                 System.out.println(i);
             }
         }
-}     
+    }     
+}
