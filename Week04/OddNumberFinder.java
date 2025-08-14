@@ -65,7 +65,7 @@ public class OddNumberFinder {
             // Check if the current number (i) is prime.
             // 0 and 1 are not prime numbers
             if (num == 0 || num == 1) {
-                 flag = true;
+                 isPrime = true;
             }
         }
     }     
