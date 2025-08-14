@@ -11,7 +11,7 @@ public class OddNumberFinder {
      * @param start The starting number of the range.
      * @param end The ending number of the range.
      */
-    public void findAndDisplayOdd(int start, int end) {
+    public void findAndDisplayOdds(int start, int end) {
         System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
  
         // Use a for loop to iterate from the start point to the end point
