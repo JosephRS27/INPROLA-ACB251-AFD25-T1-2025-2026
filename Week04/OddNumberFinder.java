@@ -15,6 +15,7 @@ public class OddNumberFinder {
         System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
  
         // Use a for loop to iterate from the start point to the end point
+        // for one line initializaton - condition - increement
         for (int i = start; i <= end; i++) {
             // Check if the current number (i) is even.
             // A number is even if the remainder when divided by 2 is 0.
