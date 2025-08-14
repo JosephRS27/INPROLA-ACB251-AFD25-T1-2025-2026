@@ -58,15 +58,14 @@ public class OddNumberFinder {
 
         public void findAndDisplayPrimeNumber(int start, int end) {
         System.out.println("\nPrime numbers in the range " + start + " to " + end + " are:");
-        boolean isPrime = false;
  
         // Use a for loop to iterate from the start point to the end point
        for (int i = start; i <= end; i++) {
+            boolean isPrime = false;
             // Check if the current number (i) is prime.
             // 0 and 1 are not prime numbers
             if (i == 0 || i == 1) {
                  isPrime = true;
-            if (i <= 1) return false;
                 for (int i = 2; i <= Math.sqrt(i); i++) {
             if (i % i == 0) return false;
         }
