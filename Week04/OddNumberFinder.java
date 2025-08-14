@@ -58,12 +58,12 @@ public class OddNumberFinder {
     }
     private void findAndDisplayPrimeNumbers(int num) {
         if (isPrime(num)) {
-            System.out.println(num);
+            System.out.println(num + " Prime to");
         }
     }
  
     private boolean isPrime(int num) {
-        if (num <= 1) {
+        if (num == 1 || num == 0)  {
             return false;
         }
         for (int i = 2; i < num; i++) {
