@@ -31,4 +31,4 @@ public class LoopExercise {
         // It's good practice to close the scanner to prevent resource leaks
         inputScanner.close();
     }
- 
+}
