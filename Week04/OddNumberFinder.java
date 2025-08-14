@@ -52,6 +52,7 @@ public class OddNumberFinder {
                 System.out.println(i);
             }
             i++;
-            }   while (i <= end;) 
+            } 
+        while (i <= end;) 
         }
 }     
